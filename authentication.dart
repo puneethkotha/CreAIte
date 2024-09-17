@@ -121,49 +121,6 @@ class _AuthentificationPageWidgetState
                         decoration: BoxDecoration(
                           color: FlutterFlowTheme.of(context).overlay,
                         ),
-                        alignment: AlignmentDirectional(0, 1),
-                        child: Align(
-                          alignment: AlignmentDirectional(0, 1),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.max,
-                            mainAxisAlignment: MainAxisAlignment.end,
-                            children: [
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0, 60, 0, 12),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.max,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    if (Theme.of(context).brightness ==
-                                        Brightness.dark)
-                                      CachedNetworkImage(
-                                        fadeInDuration:
-                                            Duration(milliseconds: 500),
-                                        fadeOutDuration:
-                                            Duration(milliseconds: 500),
-                                        imageUrl:
-                                            'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/replicate-demo-wdpbc9/assets/fyapoaikkkro/lightLogo@2x.png',
-                                        width: 240,
-                                        height: 160,
-                                        fit: BoxFit.fitHeight,
-                                      ),
-                                    if (Theme.of(context).brightness ==
-                                        Brightness.light)
-                                      CachedNetworkImage(
-                                        fadeInDuration:
-                                            Duration(milliseconds: 500),
-                                        fadeOutDuration:
-                                            Duration(milliseconds: 500),
-                                        imageUrl:
-                                            'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/replicate-demo-wdpbc9/assets/f7druc7lo9ke/dark_logo@2x.png',
-                                        width: 240,
-                                        height: 160,
-                                        fit: BoxFit.fitHeight,
-                                      ),
-                                  ],
-                                ),
-                              ),
                               Expanded(
                                 child: Align(
                                   alignment: AlignmentDirectional(0, 1),
